@@ -113,6 +113,10 @@ color: #434455;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
+}
+.card {
+    background: #fff;
 }
 .card-title {
 font-weight: 500;
@@ -122,10 +126,6 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
-}
-
-.portfolio-box {
-    background: #fff;
 }
 
 .card-content {
