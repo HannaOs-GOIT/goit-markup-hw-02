@@ -42,11 +42,11 @@ color: #2e2f42;
 }
 
 .navigation-link:hover,
-.navigation-link:focus 
+.navigation-link:focus, 
 .address-link:hover,
-.address-link:focus
-    {
-    color: #404bbf;
+.address-link:focus {
+
+color: #404bbf;
 }
 
 .address {
@@ -61,14 +61,17 @@ color: #434455;
 }
 
 .main-title {
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
 background-color: #2e2f42;
 }
+.title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
 
 .title-button {
 font-weight: 500;
@@ -79,7 +82,8 @@ color: #fff;
 background: #4d5ae5;
 cursor: pointer;
 }
-.title-button:hover {
+.title-button:hover,
+.title-button:focus {
     background: #404bbf;
 }
 .feature-title {
@@ -117,6 +121,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .card-content {
@@ -133,6 +138,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .project-card {
