@@ -124,6 +124,10 @@ color: #2e2f42;
 text-transform: capitalize;
 }
 
+.portfolio-box {
+    background: #fff;
+}
+
 .card-content {
 font-size: 16px;
 line-height: 1.5;
@@ -147,6 +151,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .project-card-content {
